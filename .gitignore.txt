@@ -1,0 +1,63 @@
+# ----------------------------
+# Operating System Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# IDE / Editor Files
+# ----------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ----------------------------
+# Python Artifacts
+# (in case scripts are added later)
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.venv
+venv/
+env/
+
+# ----------------------------
+# Notebook Checkpoints
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Diagram Tool Exports
+# ----------------------------
+*.drawio.bak
+*.drawio.tmp
+
+# ----------------------------
+# Temporary Files
+# ----------------------------
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# ----------------------------
+# Build / Export Files
+# ----------------------------
+dist/
+build/
+*.pdf
+*.pptx
+
+# ----------------------------
+# Security
+# ----------------------------
+*.key
+*.pem
+*.crt
+*.pfx
+*.secrets
