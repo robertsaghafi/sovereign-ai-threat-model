@@ -31,8 +31,7 @@ Please **do not open public issues for security vulnerabilities**.
 
 Instead, report the issue privately by contacting:
 
-**Email:** security@yourdomain.com  
-(or provide a preferred contact method)
+**Email:** robert.saghafi@aerisintelligentsystems.ai 
 
 When reporting a vulnerability, please include the following information:
 
