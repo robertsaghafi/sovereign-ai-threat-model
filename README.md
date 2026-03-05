@@ -66,12 +66,31 @@ Enterprise Data Sources
 Governance and Security Controls
 
 
+## Reference Architecture
+
+### Conceptual Sovereign AI Architecture
+
+<p align="center">
+<img src="diagrams/sovereign-ai-architecture-conceptual.png" width="850">
+</p>
+
+### Security Control Points Architecture
+
+<p align="center">
+<img src="diagrams/sovereign-ai-architecture-with-security-controls.png" width="850">
+</p>
+
+### Governance Architecture
+
+<p align="center">
+<img src="diagrams/sovereign-ai-governance-architecture.png" width="850">
+</p>
+
 Threat modeling should evaluate trust boundaries between these components.
 
 A full reference architecture is provided in:
 
 docs/02-reference-architecture.md
-
 
 ---
 
