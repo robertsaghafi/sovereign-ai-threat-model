@@ -48,13 +48,21 @@ This framework helps organizations adopt AI technologies while maintaining compl
 The framework assumes a typical enterprise AI architecture composed of several layers.
 
 Users / Applications
-↓
+
+  ↓
+
 Agent Orchestration Layer
-↓
+
+  ↓
+
 AI Model / LLM Provider
-↓
+
+  ↓
+
 Enterprise Data Sources
-↓
+
+  ↓
+
 Governance and Security Controls
 
 
