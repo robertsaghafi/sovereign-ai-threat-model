@@ -68,10 +68,10 @@ Governance and Security Controls
 
 ## Reference Architecture
 
-### Conceptual Sovereign AI Architecture
+### Sovereign AI Control Boundary
 
 <p align="center">
-<img src="diagrams/sovereign-ai-architecture-conceptual.png" width="850">
+<img src="diagrams/sovereign-ai-control- boundary.png" width="850">
 </p>
 
 ### Security Control Points Architecture
