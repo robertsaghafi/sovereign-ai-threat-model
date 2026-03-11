@@ -1,86 +1,69 @@
-\# Sovereign Exposure Matrix
+# Sovereign Exposure Matrix
 
-\## Purpose
+## Purpose
 
-The Sovereign Exposure Matrix helps organizations assess whether an AI
-system maintains appropriate control over data, models, and
-infrastructure within defined jurisdictional boundaries.
+The Sovereign Exposure Matrix helps organizations assess whether an AI system maintains appropriate control over data, models, and infrastructure within defined jurisdictional boundaries.
 
-It enables architects and governance teams to quickly identify areas
-where sovereignty may be compromised.
+It enables architects and governance teams to quickly identify areas where sovereignty may be compromised.
 
-\-\--
+---
 
-\# Sovereign Risk Dimensions
+# Sovereign Risk Dimensions
 
 Sovereign AI risk typically arises across five dimensions.
 
-\| Dimension \| Description \| Example Risk \|
-\|\-\-\-\-\-\-\-\-\-\--\|\-\-\-\-\-\-\-\-\-\-\-\--\|\-\-\-\-\-\-\-\-\-\-\-\-\--\|
-\| Data Residency \| Location where data is stored and processed \| Data
-processed outside approved jurisdiction \| \| Model Hosting \| Location
-and ownership of AI models \| Model hosted by third-party provider \| \|
-Inference Processing \| Region where model inference occurs \| Prompt
-processed in foreign region \| \| Data Retention \| Whether prompts or
-outputs are retained by providers \| LLM provider storing prompt history
-\| \| Supply Chain Dependencies \| External services used by the AI
-workflow \| Plugins or APIs exposing sensitive data \|
+| Dimension | Description | Example Risk |
+|-----------|-------------|--------------|
+| Data Residency | Location where data is stored and processed | Data processed outside approved jurisdiction |
+| Model Hosting | Location and ownership of AI models | Model hosted by third-party provider |
+| Inference Processing | Region where model inference occurs | Prompt processed in foreign region |
+| Data Retention | Whether prompts or outputs are retained by providers | LLM provider storing prompt history |
+| Supply Chain Dependencies | External services used by the AI workflow | Plugins or APIs exposing sensitive data |
 
-\-\--
+---
 
-\# Sovereign Exposure Levels
+# Sovereign Exposure Levels
 
 Organizations can classify exposure into four levels.
 
-\### Level 1 --- Fully Sovereign
+### Level 1 — Fully Sovereign
+- Model hosted internally
+- Data remains within jurisdiction
+- Full governance control
 
-\- Model hosted internally - Data remains within jurisdiction - Full
-governance control
+### Level 2 — Controlled External
+- External model provider
+- Strict contractual and regional controls
+- Minimal data exposure
 
-\### Level 2 --- Controlled External
+### Level 3 — Partial Sovereignty Loss
+- External inference processing
+- Limited visibility into provider controls
 
-\- External model provider - Strict contractual and regional controls -
-Minimal data exposure
-
-\### Level 3 --- Partial Sovereignty Loss
-
-\- External inference processing - Limited visibility into provider
-controls
-
-\### Level 4 --- Uncontrolled Exposure
-
-\- Data processed globally - Unknown model handling - No contractual
-safeguards
-
-\-\--
-
-\# Risk Assessment Example
-
-\| System Component \| Sovereignty Status \| Risk Level \|
-\|\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--\|\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--\|\-\-\-\-\-\-\-\-\-\-\--\|
-\| Internal Data Warehouse \| Local jurisdiction \| Low \| \| External
-LLM Provider \| Global inference \| High \| \| Agent Plugin API \|
-Unknown provider location \| Medium \|
-
-\-\--
-
-\# Mitigation Strategies
-
+### Level 4 — Uncontrolled Exposure
+- Data processed globally
+- Unknown model handling
+- No contractual safeguards 
+---
+# Risk Assessment Example 
+| System Component | Sovereignty Status | Risk Level |
+|------------------|--------------------|------------|
+| Internal Data Warehouse | Local jurisdiction | Low |
+| External LLM Provider | Global inference | High |
+| Agent Plugin API | Unknown provider location | Medium |
+---
+# Mitigation Strategies 
 Common mitigation approaches include:
-
-\- Regional inference restrictions - Private model hosting - Encryption
-and key management - Provider data retention controls - Strict API and
-plugin governance
-
-\-\--
-
-\# Governance Integration
-
-The matrix can support governance reporting by mapping exposure levels
-to:
-
-\- NIST AI RMF risk management practices - Enterprise data protection
-policies - Third-party risk management programs
-
-This provides leadership with clear visibility into sovereign AI risk
-exposure.
+ - Regional inference restrictions 
+ - Private model hosting 
+ - Encryption and key management 
+ - Provider data retention controls 
+ - Strict API and plugin governance 
+---
+# Governance Integration 
+the matrix can support governance reporting by mapping exposure levels to:
+highlights:
+NIST AI RMF risk management practices,
+enterprise data protection policies,
+third-party risk management programs.
+tThis provides leadership with clear visibility into sovereign AI risk exposure.
