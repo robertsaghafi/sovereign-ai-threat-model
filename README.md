@@ -49,11 +49,11 @@ If you are new to this repository, start here:
 
 ## Related Article
 
-This repository accompanies the article:
+This repository accompanies the article posted on Medium.com:
 
 **"Sovereign AI: Why Agentic Systems Require a New Threat Modeling Perspective"**
 
-(Link TBA)
+:link:(https://rebrand.ly/nhfco3y)
 
 **Threat-driven governance and security architecture framework for sovereign AI and agentic AI systems.**
 
