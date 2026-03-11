@@ -3,68 +3,114 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Security Policy](https://img.shields.io/badge/security-policy-blue)](SECURITY.md)
 ![AI Governance](https://img.shields.io/badge/AI-Governance-purple)
+![Sovereign AI](https://img.shields.io/badge/AI-Sovereign%20AI-blue)
+![AI Security](https://img.shields.io/badge/AI-Security-orange)
+![Threat Modeling](https://img.shields.io/badge/Security-Threat%20Modeling-red)
+![Framework](https://img.shields.io/badge/Security-Framework-black)
 
-Threat-driven governance framework for sovereign AI and agentic AI systems.
+## What This Repository Provides
 
-This project provides a structured methodology for identifying, modeling, and mitigating security risks in modern AI architectures where **data sovereignty, model governance, and autonomous agent behavior must be tightly controlled**.
+This project provides a **threat-driven framework for analyzing security and governance risks in sovereign and agentic AI systems**.
+
+The repository includes:
+
+- AI threat taxonomy for sovereign and agentic AI
+- Enterprise AI reference architectures
+- Attack trees and threat scenarios
+- Sovereign exposure analysis models
+- Governance-aligned security control library
+- Threat modeling templates for real-world AI deployments
+
+The goal is to help organizations translate **AI governance requirements into concrete security architecture and threat modeling practices.**
 
 ---
 
-# Project Overview
+## Quick Start
 
-Artificial intelligence systems are rapidly evolving from static inference services into **autonomous or semi-autonomous agentic systems** capable of planning actions, invoking tools, and interacting with enterprise data.
+If you are new to this repository, start here:
 
-While these capabilities unlock powerful productivity gains, they also introduce new categories of risk including:
+1. **Architecture Overview**  
+   Understand the sovereign AI control boundary  
+   → `docs/02-reference-architecture.md`
 
-- Cross-border data processing and sovereignty violations
-- Prompt injection and instruction manipulation
-- Autonomous agent privilege escalation
-- AI supply chain compromise
-- Loss of governance over model lifecycle and deployment
+2. **Threat Taxonomy**  
+   Review common threats affecting agentic AI systems  
+   → `docs/03-threat-taxonomy.md`
+
+3. **Threat Scenarios**  
+   Explore realistic attack scenarios  
+   → `docs/06-scenarios/`
+
+4. **Security Controls**  
+   See mitigation strategies and governance controls  
+   → `docs/07-controls/control-library.md`
+
+---
+
+## Related Article
+
+This repository accompanies the article:
+
+**"Sovereign AI: Why Agentic Systems Require a New Threat Modeling Perspective"**
+
+(Link TBA)
+
+**Threat-driven governance and security architecture framework for sovereign AI and agentic AI systems.**
+
+This repository provides a structured methodology for identifying, modeling, and mitigating security risks in modern AI deployments where **data sovereignty, model governance, and autonomous agent behavior must be tightly controlled**.
+
+The framework focuses on enterprise AI architectures that integrate:
+
+- Agent orchestration systems  
+- Retrieval-augmented generation (RAG) pipelines  
+- Enterprise data platforms  
+- External model providers  
+- AI governance and security controls  
+
+It helps organizations translate **AI governance requirements into practical threat models and architectural security controls.**
+
+---
+
+# Why Sovereign AI Security Matters
+
+Modern AI systems are no longer simple inference services. Many enterprise deployments now include **agentic workflows capable of planning actions, invoking tools, and retrieving enterprise data dynamically.**
+
+While these capabilities unlock productivity gains, they also introduce new security and governance risks such as:
+
+- Cross-border data processing and sovereignty violations  
+- Prompt injection and instruction manipulation  
+- Autonomous agent privilege escalation  
+- AI supply chain compromise  
+- Loss of governance over model lifecycle and deployment  
 
 Traditional application threat models do not fully capture these risks.
 
-The **Sovereign AI Threat Model Framework** provides a structured approach to analyze these threats and translate them into **actionable governance and security controls**.
-
----
-
-# Why Sovereign AI Matters
-
-Organizations operating in regulated industries must maintain control over:
-
-- Where data is processed
-- Who controls AI models
-- How AI agents interact with enterprise systems
-- Which third parties participate in AI workflows
-
-Sovereign AI emphasizes **jurisdictional control, governance accountability, and secure architecture** for AI deployments.
-
-This framework helps organizations adopt AI technologies while maintaining compliance, operational resilience, and security oversight.
+The **Sovereign AI Threat Model Framework** provides a structured way to analyze these threats and translate them into **actionable governance and security controls.**
 
 ---
 
 # Reference Architecture
 
-The framework assumes a typical enterprise AI architecture composed of several layers.
+The framework assumes a typical **enterprise AI architecture** composed of several layers.
 
-Users / Applications
-
-  ↓
-
+```text
+Users / Business Workflows
+↓
+AI Application / Copilot Layer
+↓
 Agent Orchestration Layer
-
-  ↓
-
-AI Model / LLM Provider
-
-  ↓
-
+↓
 Enterprise Data Sources
-
-  ↓
-
-Governance and Security Controls
-
+(RAG / APIs / Knowledge Bases)
+↓
+AI Governance Gateway
+(Prompt inspection • Policy enforcement • Data controls)
+↓
+External Model / LLM Provider
+↓
+Monitoring & Governance Layer
+(Audit • risk controls • logging)
+```
 
 ## Reference Architecture
 
@@ -72,12 +118,6 @@ Governance and Security Controls
 
 <p align="center">
 <img src="diagrams/sovereign-ai-control- boundary.png" width="850">
-</p>
-
-### Security Control Points Architecture
-
-<p align="center">
-<img src="diagrams/sovereign-ai-architecture-with-security-controls.png" width="850">
 </p>
 
 ### Governance Architecture
@@ -88,9 +128,6 @@ Governance and Security Controls
 
 Threat modeling should evaluate trust boundaries between these components.
 
-A full reference architecture is provided in:
-
-docs/02-reference-architecture.md
 
 ---
 
@@ -233,6 +270,21 @@ Security architects and governance teams can apply this framework through the fo
 6. Document findings using the threat modeling template
 
 This workflow enables consistent and repeatable AI risk assessments.
+
+---
+
+# Relationship to Existing AI Security Frameworks
+
+This project builds upon existing security and governance frameworks rather than replacing them.
+
+It complements the following established frameworks:
+
+• NIST AI Risk Management Framework (AI RMF)  
+• NIST Generative AI Profile (AI 600-1)  
+• MITRE ATLAS adversarial machine learning knowledge base  
+• OWASP Top 10 for LLM Applications  
+While these frameworks describe AI risks and vulnerabilities, this repository focuses specifically on enterprise deployment architectures and sovereign AI control boundaries.
+
 
 ---
 
