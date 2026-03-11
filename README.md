@@ -112,7 +112,7 @@ Monitoring & Governance Layer
 (Audit • risk controls • logging)
 ```
 
-## Reference Architecture
+
 
 ### Sovereign AI Control Boundary
 
@@ -126,7 +126,19 @@ Monitoring & Governance Layer
 <img src="diagrams/sovereign-ai-governance-architecture.png" width="850">
 </p>
 
-Threat modeling should evaluate trust boundaries between these components.
+These diagrams illustrate the core trust boundaries and control points in sovereign AI deployments.
+
+Threat modeling should focus on the boundaries between:
+
+- agent orchestration systems
+
+- enterprise data environments
+
+- governance control gateways
+
+- external model providers
+
+because those boundaries are where security failures and governance violations most commonly occur.
 
 
 ---
@@ -251,9 +263,9 @@ Mapping examples include:
 - Cross-border inference → Regional inference enforcement
 - Agent privilege escalation → Role-based agent permissions
 
-See:
+See: [Threat to Control Mapping](docs/10-threat-to-control-mapping.md)
 
-docs/10-threat-to-control-mapping.md
+
 
 
 ---
@@ -322,9 +334,9 @@ Contributions are welcome.
 
 If you have ideas for improving the framework, please open an issue or submit a pull request.
 
-See:
+See: 
 
-CONTRIBUTING.md
+[CONTRIBUTING](CONTRIBUTING.md)
 
 
 ---
@@ -333,7 +345,7 @@ CONTRIBUTING.md
 
 Please review our security policy for guidance on reporting vulnerabilities.
 
-SECURITY.md
+[SECURITY](SECURITY.md)
 
 
 ---
@@ -344,4 +356,4 @@ This project is licensed under the MIT License.
 
 See:
 
-LICENSE
+[LICENSE](LICENSE.txt)
