@@ -147,9 +147,9 @@ Examples include:
 - AI supply chain compromise
 - Model lifecycle governance failures
 
-See:
+See: [Threat Taxonomy](docs/03-threat-taxonomy.md)
 
-docs/03-threat-taxonomy.md
+
 
 
 ---
@@ -160,9 +160,9 @@ A model for assessing whether AI deployments maintain appropriate jurisdictional
 
 This helps identify situations where sovereignty may be compromised.
 
-See:
+See: [Sovereign Exposure Matrix](docs/04-sovereign-exposure-matrix.md)
 
-docs/04-sovereign-exposure-matrix.md
+
 
 
 ---
@@ -178,9 +178,9 @@ Example attack paths include:
 - Privilege escalation within autonomous workflows
 - Model supply chain tampering
 
-See:
+See: [Attack Trees](docs/05-attack-trees.md)
 
-docs/05-attack-trees/
+
 
 
 ---
@@ -195,9 +195,9 @@ Examples include:
 - Agent tool abuse and sensitive data retrieval
 - Compromised AI models in the supply chain
 
-See:
+See: [Threat Scenarios](docs/06-scenarios/)
 
-docs/06-scenarios/
+
 
 
 ---
@@ -214,9 +214,9 @@ Controls are grouped into domains including:
 - AI supply chain security
 - Monitoring and accountability
 
-See:
+See: [Control Library](docs/07-controls/control-library.md)
 
-docs/07-controls/control-library.md
+
 
 
 ---
@@ -232,9 +232,9 @@ Templates include:
 - Risk scoring
 - Governance control mapping
 
-See:
+See: [Threat Modeling Templates](docs/08-templates/)
 
-docs/08-templates/
+
 
 
 ---
